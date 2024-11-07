@@ -52,9 +52,9 @@ if uploaded_file is not None:
 
     # Direktori tempat penyimpanan ketiga model
     model_path = {
-        "AGG_model": 'AGG_model.pkl'),
-        "KMeans_model": 'KMeans_model.pkl'),
-        "DBSCAN_model": 'DBSCAN_model.pkl')
+        "AGG_model": 'AGG_model.pkl',
+        "KMeans_model": 'KMeans_model.pkl',
+        "DBSCAN_model": 'DBSCAN_model.pkl'
     }
 
     # Load ketiga model ke dalam dictionary
